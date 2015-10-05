@@ -1,0 +1,35 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "A small web application with basic chat functionality",
+  "main": "server.js",
+  "dependencies": {
+    "babel": "~5.8.23",
+    "babel-core": "~5.8.25",
+    "babelify": "~6.3.0",
+    "body-parser": "~1.14.1",
+    "express": "~4.13.3",
+    "react": "~0.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify ./componants.js -t babelify --compact=true --outfile ./public/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thekokirikid/Chat.git"
+  },
+  "keywords": [
+    "chat",
+    "react",
+    "babel"
+  ],
+  "author": "Madeline Lord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thekokirikid/Chat/issues"
+  },
+  "homepage": "https://github.com/thekokirikid/Chat"
+}
