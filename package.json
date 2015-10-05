@@ -13,9 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "browserify ./componants.js -t babelify --compact=true --outfile ./public/js/bundle.js",
+    "build": "browserify ./src/componants.js -t babelify --compact=true --outfile ./src/client/js/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./src/server/server.js"
   },
   "repository": {
     "type": "git",
