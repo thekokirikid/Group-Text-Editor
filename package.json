@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "browserify ./src/componants.js -t babelify --compact=true --outfile ./src/client/js/bundle.js",
+    "build": "browserify ./src/components.js -t babelify --compact=true --outfile ./src/client/js/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/server/server.js"
   },
