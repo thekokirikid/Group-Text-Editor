@@ -4,7 +4,7 @@ var app = express();
 //for images and static public pages
 app.use(express.static(__dirname + '/../client'));
 
-app.get('/chat', function (req, res) {
+app.get('/editor', function (req, res) {
    res.sendFile( __dirname + "/index.html" );
 });
 
